@@ -1,6 +1,4 @@
-PyDEG is a python implementation of the differential expression analysis(DEA) with bulk RNA-seq data. 
-
-You have to note that it is just a mimic of DESeq2 of python and DESeq2 of R. We are neither majors nor experts. 
+PyDEG is a python implementation of the differential expression analysis(DEA) with bulk RNA-seq data. You have to note that it is just a mimic of DESeq2 of python and DESeq2 of R. We are neither majors nor experts. 
 
 Please refer to the following links : https://github.com/owkin/PyDESeq2 & https://hbctraining.github.io/DGE_workshop/lessons/04_DGE_DESeq2_analysis.html
 
