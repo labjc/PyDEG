@@ -30,7 +30,7 @@ Create pydeg_dataset object where count_data is a pandas.DataFrame containing ra
 ```python
 pdd = pydeg_dataset(count_data, metadata, design)
 ```
-Estimate size factors, dispersinos and fit GLM for each gene.
+Estimate size factors, dispersions and fit GLM for each gene.
 ```python
 pdd.DEA()
 ```
