@@ -6,8 +6,36 @@ Currently, PyDEG uses median of ratios as the size factors, like DESeq2. However
 
 There may be many errors and the code may reflect things we know are wrong. We will fix these things. If you notice anything strange, please feel free to contact me at any time.
 
-## Table of Contents
+## Contents
 
 1. Installation
 2. How to use
 3. License
+
+---
+## Installation
+PyDEG can be installed from PyPI using pip
+```
+pip install PyDEG
+```
+
+---
+## How to use
+Import pydeg_dataset and results from pydeg. You may need import pandas.
+```python
+import pandas as pd
+from pydeg.pdd import pydeg_dataset, results
+```
+Create pydeg_dataset object where count_data is a pandas.DataFrame containing raw counts, metadata is a pandas.DataFrame containing information about samples and the design is string design formula.
+```python
+pdd = pydeg_dataset(count_data, metadata, design)
+```
+Estimate size factors, dispersinos and fit GLM for each gene.
+```python
+pdd.DEA()
+```
+Test for differential expression with contrast = [condition, control, treat]
+```python
+res = results(pdd, contrast)
+```
+
