@@ -5,3 +5,9 @@ Please refer to the following links : https://github.com/owkin/PyDESeq2 & https:
 Currently, PyDEG uses median of ratios as the size factors, like DESeq2. However, there are many differeces between PyDEG and DESeq2(or PyDESeq2). For instance, We use the likelihood-ratio test unlike DESeq2 which mainly uses the wald test.
 
 There may be many errors and the code may reflect things we know are wrong. We will fix these things. If you notice anything strange, please feel free to contact me at any time.
+
+## Table of Contents
+
+1. Installation
+2. How to use
+3. License
